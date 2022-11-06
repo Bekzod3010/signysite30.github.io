@@ -1,0 +1,345 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    /* background-image: url(./img/box.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background: #DEEEFC;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    align-items: center;
+    margin: auto !important;
+    padding: 20px 0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+select{
+    background: none;
+    border: none;
+}
+nav button{
+    font-size: 18px;
+    padding: 8px 14px;
+    color: white;
+    background: #1064E5;
+    border: none;
+    border-radius: 45px;
+}
+nav button:hover{
+    background: none;
+    color: #000;
+    border: 0.5px solid #1064E5;
+}
+.dokument{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+.dokument .text{
+    margin-top: 100px;
+}
+.dokument .text h1{
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46px;
+}
+.dokument .text p b{
+    font-size: 29px;
+}
+.dokument h3{
+    font-size: 25px;
+}
+.dokument .text p{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
+.dokument button{
+    font-size: 20px;
+    color: white;
+    padding: 10px 14px;
+    background:#1064E5;
+    border: none;
+    border-radius: 45px;
+}
+.dokument button:hover{
+    background: none;
+    color: #000;
+    border: 0.5px solid #1064E5;
+}
+/* katalog start */
+.katalog{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin: auto;
+    padding: 50px 0;
+}
+.katalog .box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 280px;
+}
+/* main start */
+main{
+    background: #D8F1F0;
+}
+.comfort{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0;
+}
+.comfort .text1 h2{
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+}
+.comfort .text1 p{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.comfort .text1 button{
+    background: #1064E5;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 8px 14px;
+    font-size: 18px;
+    border: 0.5px solid #1064E5;
+}
+.comfort .text1 button:hover{
+    background: none;
+    color: #000;
+    border: 0.5px solid #1064E5;
+}
+
+/* paket start */
+h2{
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin: 20px 0;
+}
+.paket{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.paket .box{
+    background: #DEEEFC;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 30px 0;
+    width: 20%;
+    
+}
+.paket .box h3{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+}
+.paket .box p{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.paket .box .sent{
+    font-size: 48px;
+}
+.paket .box button{
+    background: #1064E5;
+    border-radius: 100px;
+    padding: 8px 15px;
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-bottom: 20px;
+}
+.nomer{
+    padding: 40px 0;
+    background: #D8F1F0;
+    text-align: center;
+}
+.nomer h2{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 73px;
+    line-height: 48px;
+}
+.nomer h3{
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+}
+.nomer p{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.logo h2{
+    text-align: center;
+    margin: 40px 0;
+}
+.logo .logos{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom:100px ;
+}
+/* komp start */
+.pro{
+    background: #D8F1F0;
+}
+.pro h2{
+    padding: 40px 0;
+}
+.komp{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.komp h3{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    padding-bottom: 40px;
+}
+.komp .box img{
+    opacity: 0.6;
+}
+
+.jivoy{
+    text-align: center;
+    margin: 40px 0;
+}
+.jivoy img{
+    opacity: 0.5;
+}
+
+.vopros{
+    background: #DEEEFC;
+    /* text-align: center; */
+}
+.vopros h3{
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+.vopros .text2{
+    display: block;
+    max-width: 500px;
+    margin: 30px auto; 
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    /* or 122% */
+    color: rgba(6, 18, 36, 0.9);
+  
+}
+
+.submit{
+    margin: 70px 0;
+    text-align: center;
+}
+.submit p{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+}
+.submit form .empty{
+    width: 350px;
+    height: 50px;
+    border: 2px solid #1064E5;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.submit form .sub{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background: #1064E5;
+    color: white;
+    font-size: 18px;
+}
+/* footer start */
+footer{
+    background: #061224;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    padding: 60px;
+}
+.footer .block1{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.footer .block2{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.footer .block2 .grey{
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+
